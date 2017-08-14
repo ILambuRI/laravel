@@ -21,3 +21,5 @@ Route::get('/form/{val?}', 'HelloController@showForm');
 Route::post('/form/{val?}', 'HelloController@postForm');
 Route::get('/blade/', 'HelloController@showBlade');
 
+Route::get('my/long/way', array('uses' => 'HelloController@showBlade', 'as' => 'bladepath'));
+
