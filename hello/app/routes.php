@@ -23,3 +23,4 @@ Route::get('/blade/', 'HelloController@showBlade');
 
 Route::get('my/long/way', array('uses' => 'HelloController@showBlade', 'as' => 'bladepath'));
 
+Route::controller('test', 'HelloController');

@@ -26,7 +26,8 @@ return array(
 	|
 	*/
 
-	'url' => 'http://laravel/task1/public/',
+    //'url' => 'http://laravel/task1/public/',
+    'url' => 'http://192.168.0.15/~user10/task1/',
 
 	/*
 	|--------------------------------------------------------------------------

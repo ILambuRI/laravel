@@ -11,7 +11,7 @@
 @section('content')
 @foreach ($articles as $num)
     <p>
-        <a class="link is-success" href='/task1/public/article/{{$num}}'>Article {{$num}}</a>
+        <a class="link is-success" href="{{URL::to('article/'.$num)}}">Article {{$num}}</a>
     </p>
 @endforeach
 @stop

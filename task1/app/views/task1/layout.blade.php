@@ -14,19 +14,19 @@
     <body>
         <nav class="level">
             <p class="level-item has-text-centered">
-                <a class="link is-info" href='/task1/public/home'>Home</a>
+                <a class="link is-info" href='{{URL::to('home')}}'>Home</a>
             </p>
             <p class="level-item has-text-centered">
-                <a class="link is-info" href='/task1/public/articles'>Articles</a>
+                <a class="link is-info" href='{{URL::to('articles')}}'>Articles</a>
             </p>
             <p class="level-item has-text-centered">
                 <img src="{{asset('images/Geeksforless_logo.png')}}" alt="" style="height: 30px;">
             </p>
             <p class="level-item has-text-centered">
-                 <a class="link is-info" href='/task1/public/about'>About</a>
+                 <a class="link is-info" href='{{URL::to('about')}}'>About</a>
             </p>
             <p class="level-item has-text-centered">
-                <a class="link is-info" href='/task1/public/contact'>Contact</a>
+                <a class="link is-info" href='{{URL::to('contact')}}'>Contact</a>
             </p>
         </nav>
 
