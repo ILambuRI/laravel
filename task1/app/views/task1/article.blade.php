@@ -5,7 +5,7 @@
 @stop
 
 @section('head')
-    <h1>Article #{{{$num}}}:</h1>
+    Article #{{{$num}}}:
 @stop
 
 @section('content')

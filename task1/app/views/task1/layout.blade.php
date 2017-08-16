@@ -20,7 +20,7 @@
                 <a class="link is-info" href='{{URL::to('articles')}}'>Articles</a>
             </p>
             <p class="level-item has-text-centered">
-                <img src="{{asset('images/Geeksforless_logo.png')}}" alt="" style="height: 30px;">
+                <img src="{{asset('images/Geeksforless_logo.png')}}" alt="">
             </p>
             <p class="level-item has-text-centered">
                  <a class="link is-info" href='{{URL::to('about')}}'>About</a>
@@ -31,11 +31,17 @@
         </nav>
 
         <div class="container">
-            <div class='head has-text-centered'>
-                @section('head')
-                    <h1>Welcome!</h1>
-                @show
+            <div class="column"></div>
+            <div class="columns has-text-centered">
+                <div class="column">
+                    <p class="title is-3 is-spaced">
+                        @section('head')
+                            Welcome!
+                        @show
+                    </p>
+                </div>
             </div>
+            <div class="column"></div>
         </div>
 
         <div class="container">
@@ -50,5 +56,22 @@
                 @show
             </div>
         </div>
+
+        <div class="column"></div>
+        <div class="column"></div>
+        <footer class="footer">
+            <div class="container">
+                <div class="content has-text-centered">
+                <p>
+                    <strong>task1 by user10 on Laravel 4.2+</strong>
+                </p>
+                <p>
+                    <a class="icon" href="https://github.com/ILambuRI/laravel/tree/master/task1">
+                    <i class="fa fa-github"></i>
+                    </a>
+                </p>
+                </div>
+            </div>
+        </footer>
     </body>
 </html>

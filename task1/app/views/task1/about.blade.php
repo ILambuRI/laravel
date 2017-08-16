@@ -5,7 +5,7 @@
 @stop
 
 @section('head')
-    <h1>About us:</h1>
+    About us:
 @stop
 
 @section('content')

@@ -5,7 +5,8 @@
     DirectoryIndex index.php
 
     RewriteEngine On
-    RewriteBase /~user10/task1   
+    RewriteBase /~user10/task1
+    # RewriteBase /task1/public
 
     # Redirect Trailing Slashes...
     RewriteRule ^(.*)/$ /$1 [L,R=301]
