@@ -1,6 +1,6 @@
 @extends('task1.layout')
 @section('head')
-   All tracks of the album of the artist(s) {{$all[0]['Composer']}}:
+   All tracks of the album of the goup {{$artist[0]['Name']}}:
 @stop
 
 @section('content')
