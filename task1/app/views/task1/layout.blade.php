@@ -14,7 +14,7 @@
     <body>
         <nav class="level">
             <p class="level-item has-text-centered">
-                <a class="link is-info" href='{{URL::to('home')}}'>Home</a>
+                <a class="link is-info" href='{{URL::to('/')}}'>Home</a>
             </p>
             <p class="level-item has-text-centered">
                 <a class="link is-info" href='{{URL::to('articles')}}'>Articles</a>
