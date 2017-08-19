@@ -3,7 +3,7 @@
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateTableLinks extends Migration {
+class CreateTableUsers extends Migration {
 
 	/**
 	 * Run the migrations.
@@ -12,10 +12,13 @@ class CreateTableLinks extends Migration {
 	 */
 	public function up()
 	{
-		Schema::create('links', function(Blueprint $table)
+		Schema::create('users', function(Blueprint $table)
 		{
             $table->increments('id');
-            $table->text('url');
+            $table->string('email', 100);
+            $table->string('name');
+            $table->string('password',60);
+            $table->rememberToken();
 			$table->timestamps();
 		});
 	}
@@ -27,7 +30,7 @@ class CreateTableLinks extends Migration {
 	 */
 	public function down()
 	{
-		Schema::drop('links');
+		Schema::drop('users');
 	}
 
 }

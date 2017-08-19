@@ -26,8 +26,7 @@ return array(
 	|
 	*/
 
-    // 'url' => 'http://laravel/task2/public/',
-    'url' => 'http://192.168.0.15/~user10/tinyurl/',
+	'url' => 'http://192.168.0.15/~user6/tinyurl/',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -79,7 +78,7 @@ return array(
 	|
 	*/
 
-	'key' => 'xpY3I6Y8zdcyKCBeE4tLujkd6URp1LPx',
+	'key' => 'tHYjAtxzt5550nFfdHF8LTjmF4RMFP9K',
 
 	'cipher' => MCRYPT_RIJNDAEL_128,
 
@@ -122,7 +121,7 @@ return array(
 		'Illuminate\Validation\ValidationServiceProvider',
 		'Illuminate\View\ViewServiceProvider',
 		'Illuminate\Workbench\WorkbenchServiceProvider',
-
+        'TinyURL\Repository\TinyURLRepositoryProvider',
 	),
 
 	/*

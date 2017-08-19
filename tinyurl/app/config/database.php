@@ -26,7 +26,7 @@ return array(
 	|
 	*/
 
-	'default' => 'tinyurl',
+	'default' => 'tinyurlHome',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -48,11 +48,11 @@ return array(
 
 		'sqlite' => array(
 			'driver'   => 'sqlite',
-			'database' => __DIR__.'/../database/chinook.sqlite',
+			'database' => __DIR__.'/../database/production.sqlite',
 			'prefix'   => '',
 		),
 
-		'tinyurl' => array(
+		'tinyurlClass' => array(
 			'driver'    => 'mysql',
 			'host'      => 'localhost',
 			'database'  => 'user10',
@@ -63,12 +63,23 @@ return array(
 			'prefix'    => 'tinyurl_',
 		),
 
+		'tinyurlHome' => array(
+			'driver'    => 'mysql',
+			'host'      => 'localhost',
+			'database'  => 'tinyurl',
+			'username'  => 'root',
+			'password'  => '',
+			'charset'   => 'utf8',
+			'collation' => 'utf8_unicode_ci',
+			'prefix'    => 'tinyurl_',
+		),
+
 		'pgsql' => array(
 			'driver'   => 'pgsql',
 			'host'     => 'localhost',
-			'database' => 'user10',
-			'username' => 'user10',
-			'password' => 'user10v',
+			'database' => 'forge',
+			'username' => 'forge',
+			'password' => '',
 			'charset'  => 'utf8',
 			'prefix'   => '',
 			'schema'   => 'public',
