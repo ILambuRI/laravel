@@ -224,7 +224,7 @@ class ComposerStaticInit94adb99309d9cffcc5c64750ba46d5ef
         'AuthController' => __DIR__ . '/../..' . '/app/controllers/AuthController.php',
         'BaseController' => __DIR__ . '/../..' . '/app/controllers/BaseController.php',
         'CreateTableLinks' => __DIR__ . '/../..' . '/app/database/migrations/2017_08_17_134013_create_table_links.php',
-        'CreateTableUsers' => __DIR__ . '/../..' . '/app/database/migrations/2017_08_18_135335_create_table_users.php',
+        'CreateTableUsers' => __DIR__ . '/../..' . '/app/database/migrations/2017_08_16_133015_create_table_users.php',
         'DatabaseSeeder' => __DIR__ . '/../..' . '/app/database/seeds/DatabaseSeeder.php',
         'HomeController' => __DIR__ . '/../..' . '/app/controllers/HomeController.php',
         'IlluminateQueueClosure' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Queue/IlluminateQueueClosure.php',

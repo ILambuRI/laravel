@@ -9,7 +9,7 @@ return array(
     'AuthController' => $baseDir . '/app/controllers/AuthController.php',
     'BaseController' => $baseDir . '/app/controllers/BaseController.php',
     'CreateTableLinks' => $baseDir . '/app/database/migrations/2017_08_17_134013_create_table_links.php',
-    'CreateTableUsers' => $baseDir . '/app/database/migrations/2017_08_18_135335_create_table_users.php',
+    'CreateTableUsers' => $baseDir . '/app/database/migrations/2017_08_16_133015_create_table_users.php',
     'DatabaseSeeder' => $baseDir . '/app/database/seeds/DatabaseSeeder.php',
     'HomeController' => $baseDir . '/app/controllers/HomeController.php',
     'IlluminateQueueClosure' => $vendorDir . '/laravel/framework/src/Illuminate/Queue/IlluminateQueueClosure.php',
