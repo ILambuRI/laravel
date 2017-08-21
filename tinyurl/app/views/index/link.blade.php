@@ -1,7 +1,13 @@
-<html>
-<body>
-<p>Short Link: <a href="{{$link}}">{{$link}}</a></p>
+@extends('layout')
 
+@section('title')
+    Short Link
+@stop
 
-</body>
-</html>
+@section('head')
+   You short Link:
+@stop
+
+@section('content')
+    <p> <a href="{{$link}}">{{$link}}</a></p>
+@stop

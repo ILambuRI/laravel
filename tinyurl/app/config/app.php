@@ -26,7 +26,7 @@ return array(
 	|
 	*/
 
-	'url' => 'http://192.168.0.15/~user6/tinyurl/',
+	'url' => 'http://192.168.0.15/~user10/tinyurl/',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -122,6 +122,7 @@ return array(
 		'Illuminate\View\ViewServiceProvider',
 		'Illuminate\Workbench\WorkbenchServiceProvider',
         'TinyURL\Repository\TinyURLRepositoryProvider',
+        'TinyURL\Authorization\TinyURLAuthorizationProvider',
 	),
 
 	/*

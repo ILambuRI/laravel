@@ -26,7 +26,8 @@ return array(
 	|
 	*/
 
-	'default' => 'tinyurlHome',
+	// 'default' => 'tinyurlHome',
+	'default' => 'tinyurlClass',
 
 	/*
 	|--------------------------------------------------------------------------
